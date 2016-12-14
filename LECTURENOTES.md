@@ -30,8 +30,7 @@ https://github.com/facebookincubator/create-react-app
           'sass?sourceMap'
         ],
         exclude: /node_modules|lib/
-      },
-`
+      },`
 ##webpack.config.prod.js
 `{
   test: /\.scss$/,
@@ -46,5 +45,5 @@ https://github.com/facebookincubator/create-react-app
 `npm install --save react-router`
 
 ##SURGE
-`npm install --save-dev surge`
 [https://surge.sh/](https://surge.sh/)
+`npm install --save-dev surge`
