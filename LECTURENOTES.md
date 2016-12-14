@@ -10,12 +10,23 @@ https://github.com/facebookincubator/create-react-app
 `create-react-app my-app --scripts-version custom-react-scripts`
 `create-react-app APPNAME`
 
-
 ###SCSS CONFIG 1
+`npm install create-react-app-sass --save-dev`
+
+###package.json
+
+`"scripts": {
+  "start": "react-scripts-with-sass start",
+  "build": "react-scripts-with-sass build",
+  "test": "react-scripts test --env=jsdom",
+  "eject": "react-scripts eject"
+},`
+
+###SCSS CONFIG 2
 
 `npm install create-react-app-sass --save-dev`
 
-###SCSS CONFIG 2
+###SCSS CONFIG 3
 
 `npm install sass-loader node-sass --save-dev`
 `npm install react-css-modules -–save-dev`
