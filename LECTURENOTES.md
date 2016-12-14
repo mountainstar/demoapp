@@ -1,6 +1,8 @@
 
 ##installing create-react-app
+
 https://github.com/facebookincubator/create-react-app
+
 `sudo npm install -g create-react-app`
 `sudo npm install -g surge`
 
@@ -14,10 +16,13 @@ https://github.com/facebookincubator/create-react-app
 `npm install create-react-app-sass --save-dev`
 
 ###SCSS CONFIG 2
+
 `npm install sass-loader node-sass --save-dev`
 `npm install react-css-modules -–save-dev`
 `npm run eject`
+
 ###webpack.config.dev.js
+
      `{
         test: /\.css$/,
         loader: 'style!css?modules&localIdentName=[name]---[local]---[hash:base64:5]'
@@ -31,7 +36,9 @@ https://github.com/facebookincubator/create-react-app
         ],
         exclude: /node_modules|lib/
       },`
+
 ##webpack.config.prod.js
+
 `{
   test: /\.scss$/,
   loaders: [
@@ -41,9 +48,13 @@ https://github.com/facebookincubator/create-react-app
   ],
   exclude: /node_modules|lib/
 },`
+
 ##REACT ROUTER
+
 `npm install --save react-router`
 
 ##SURGE
+
 [https://surge.sh/](https://surge.sh/)
+
 `npm install --save-dev surge`
