@@ -1,24 +1,24 @@
 
 ##installing create-react-app
 https://github.com/facebookincubator/create-react-app
-sudo npm install -g create-react-app
-sudo npm install -g surge
+`sudo npm install -g create-react-app`
+`sudo npm install -g surge`
 
 ##run create-react-app
-create-react-app my-app --scripts-version custom-react-scripts
-create-react-app APPNAME
+`create-react-app my-app --scripts-version custom-react-scripts`
+`create-react-app APPNAME`
 
 
-##SCSS CONFIG 1
+###SCSS CONFIG 1
 
-npm install create-react-app-sass --save-dev
+`npm install create-react-app-sass --save-dev`
 
-##SCSS CONFIG 2
-npm install sass-loader node-sass --save-dev
-npm install react-css-modules -–save-dev
-npm run eject
-##webpack.config.dev.js
-     {
+###SCSS CONFIG 2
+`npm install sass-loader node-sass --save-dev`
+`npm install react-css-modules -–save-dev`
+`npm run eject`
+###webpack.config.dev.js
+     `{
         test: /\.css$/,
         loader: 'style!css?modules&localIdentName=[name]---[local]---[hash:base64:5]'
       },
@@ -31,9 +31,9 @@ npm run eject
         ],
         exclude: /node_modules|lib/
       },
-
+`
 ##webpack.config.prod.js
-{
+`{
   test: /\.scss$/,
   loaders: [
     'style?sourceMap',
@@ -41,10 +41,10 @@ npm run eject
     'sass?sourceMap'
   ],
   exclude: /node_modules|lib/
-},
+},`
 ##REACT ROUTER
-npm install react-router
+`npm install --save react-router`
 
 ##SURGE
-npm install --save-dev surge
-https://surge.sh/
+`npm install --save-dev surge`
+[https://surge.sh/](https://surge.sh/)
